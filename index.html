@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Password Generator!</title>
+
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+<!-- Content -->
+  <div class="wrap">
+  <br>
+    <h1>Password Generator</h1>  
+      <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="password">
+                <div class="card mx-auto">
+                    <div class="container">
+                        <h2>Generate a Password</h2>
+                        <input type="text" style="width: 35px;"> Pick a password length, 8-128<br>
+                        <input type="checkbox" name="checks" value="t"> Would you like special characters, including space?<br>
+                        <input type="checkbox" name="checks" value="t"> Would you like number characters, 0-9?<br>
+                        <input type="checkbox" name="checks" value="t"> Would you like lowercase characters?<br>
+                        <input type="checkbox" name="checks" value="t"> Would you like uppercase characters?<br>
+                        <div class="password">
+                            <div class="password-body">
+                            <h6 id="pass-final">Your Secure Password</h6>
+                            </div>
+                        </div>
+                        <div class="row" id="btns">
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-left">
+                                    <button type="button" class="btn btn-danger btn-lg" id="gen">Generate Password</button>
+                            </div>
+                            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">   
+                                    <button type="button" class="btn btn-light btn-lg" id="copy">Copy to Clipboard</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- end content -->
+  <script src="./script.js"></script>
+</body>
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-lg-12" id="footer">
+          Copyright &copy;
+        </div>
+      </div>
+    </div>
+
+</footer>
+</html>
