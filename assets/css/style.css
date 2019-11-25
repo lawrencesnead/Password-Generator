@@ -1,0 +1,128 @@
+
+/* general settings */
+
+
+h1 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-weight: 650;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40;
+    line-height: 40px;
+    color: rgba(70, 66, 66, 0.993);
+    text-shadow: 2px 2px 3px gray;
+}
+h2 {
+    padding: 30px 0 20px 15px;
+    font-size: 35px;
+    border-bottom: 2px solid lightgray;
+    color: gray;
+}
+
+h6 {
+    text-align: center;
+    color: darkgrey;
+    font-size: 30px;
+}
+
+
+
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: lightgray;
+
+}
+
+.card {
+    width: 95%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    padding: 30px 20px 30px 20px;
+    box-shadow: 0 0 30px gray;
+
+}
+.password{
+    border: 2px dashed lightgray;
+    padding: 30px;
+    height: max-content;
+    width: 100%;
+    margin: 30px auto 30px auto;
+}
+
+/* Button settings */
+
+#btns {
+    border-top: 2px solid lightgray;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    border-radius: 24px;
+}
+
+#gen {
+    margin: 30px 0 30px 20px;
+    background-color: red;
+    position: absoltute;
+}
+
+#copy{
+    margin: 30px 30px 30px 0;
+    background-color: gray;
+    text-align: right;
+}
+
+
+/* Sticky Footer */
+html, body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -115px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer,
+.push {
+  height: 115px;
+}
+/* end of sticky footer */
+footer {
+    margin-top: 5%;
+    text-align: center;
+    background: rgb(46, 51, 51);
+    font-size: 15px;
+    border-top: 4px solid #6e6e6e;
+    color: #6e6e6e;
+    padding-top: auto;
+    width: 100%;
+}
+
+/* media code for reponsiveness */
+
+@media only screen and (min-width:992px) {
+    h1 {
+        font-size: 22px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h6 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
